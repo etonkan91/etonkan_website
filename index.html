@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eton Kan Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+        <!-- source for fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|
+        Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>                
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About me</a></li>
+                    <li class="nav_item"><a href="#work_experience" class="nav_link">Experience</a></li>
+                    <li class="nav_item"><a href="#personal_project" class="nav_link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- home -->
+        <section class="intro" id="home">
+            <h1 class="section_title section_title-intro">
+                Hello, my name is <strong> Eton Kan </strong>
+            </h1>
+            <p class="section_subtitle section_subtitle-intro">Computer Engineer</p>
+        </section>
+
+        <!-- about Me -->
+        <section class="about-me" id="about">
+            <h2 class="section_title section_title-about">About Me</h2>
+            <p class="section_subtitle section_subtitle-about"></p>
+
+            <div class="about-me-body">
+                <p>I am a computer engineer</p>
+            </div>
+
+            <!-- In case I want to put my face on the website -->
+            <!-- <img src="img/20210214_174409.jpg" alt="A picture of me"> -->
+        </section>
+
+        <!-- experience -->
+        <section class="my_experience" id="work_experience">
+            <h2 class="section_title section_title-my_experience">Experience</h2>
+            <div class="experience">
+                <div class="company-name">
+                    <h3>Microchip</h3>
+                </div>
+                <div class="job_title">
+                    <p>Validation Engineer</p>
+                </div>
+                <div class="description">                    
+                    <p>Validate Switches to make sure it meets PCIe requirements</p> 
+                </div>
+            </div>
+            <div class="experience">                
+                <div class="company-name">
+                        <h3>Microsemi</h3>
+                </div>
+                <div class="job_title">
+                    <p>Verification Engineer Co-op</p>
+                </div>
+                <div class="description">                    
+                    <p>Monitor regression on Jenkins etc</p>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="company-name">
+                    <h3>Broadcom</h3>
+                </div>
+                <div class="job_title">
+                    <p>Applcation Engineer</p>
+                </div>
+                <div class="description">                    
+                    <p>Supporting Broadcom customers by making changes to the custom Embedded Linux system</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- personal project -->
+        <section class="my_personal_project" id="personal_project">
+            <h2 class="section_title section_title-experience">Personal Projects</h2>
+            <div class="project">
+                <div class="project_name">
+                    <h3>Personal Website</h3>
+                </div>
+                <div class="description">                    
+                    <p>The website you are seeing is are built using HTML, CSS and Javascripts from scratches</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:etonkan91@gmail.com" class="footer_link">etonkan91@gmail.com</a>
+            <ul class="social-list">            
+            <li class="social-list_item">
+                <a class="social-list_link" href="https://github.com/etonkan91">
+                <i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list_item">
+                <a class="social-list_link" href="https://www.linkedin.com/in/etonkan/">
+                <i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
